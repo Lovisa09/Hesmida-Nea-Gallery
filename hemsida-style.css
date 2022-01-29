@@ -4,12 +4,14 @@
     font-weight: bold;
 }
 
-h3:hover{ color: black;
+h3:hover{ 
+    color: black;
     font-size: larger;
     text-shadow: 3px 3px 6px rgb(255, 150, 190)
 }
 
-#postman {width: 200px;
+#postman {
+    width: 200px;
     padding: 8px;
     border-radius: 10px;
     background-color: #eee;
@@ -18,38 +20,23 @@ h3:hover{ color: black;
     margin-right: auto;
 }
 
-h1{text-align: center;
-    font-family: monospace;}
-
-h1:hover{ color:black;
-    text-shadow: 3px 3px 6px rgb(255, 150, 190); }
-
-    
-
-.Container {text-align: center;
-    margin: 8px auto;
-    padding: 8px;
-    width: 750px;
-    background-color: #eee;
-    border-radius: 10px;
-    font-family: monospace;
-}
-
-.Gallery {
+h1{
     text-align: center;
-    float: left;
-    margin: 8px;
-    padding: 8px;
-    width: 300px;
-    background-color: #eee;
-    border-radius: 10px;
     font-family: monospace;
 }
 
-body{background-image: url("Bildisar/pink-sky-22.jpg"); }
+h1:hover{ 
+    color:black;
+    text-shadow: 3px 3px 6px rgb(255, 150, 190); 
+}
 
-
-button {color: black;
+link:hover{
+    color:black;
+    text-shadow: 3px 3px 6px rgb(255, 150, 190);
+}
+        
+button {
+    color: black;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -59,5 +46,39 @@ button {color: black;
     width: 150px;
     background-color: #ccccff;
     border-radius: 10px;
+    font-family: monospace; 
+}
+
+.Container {
+    text-align: center;
+    margin: 8px auto;
+    padding: 8px;
+    width: 750px;
+    background-color: #eee;
+    border-radius: 10px;
     font-family: monospace;
 }
+
+.GalleryLine {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Gallery {
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    width: 300px;
+    background-color: #eee;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+body {
+    background-image: url("Bildisar/pink-sky-22.jpg"); 
+}
+
+.butoon{
+    clear:both;
+   }
+
